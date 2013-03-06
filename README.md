@@ -18,7 +18,7 @@ To work with this launch the Main.java and pass hostname/ip address,port and pat
 command line arguments.
 
 For example
-$java Main localhost 9190 /opt/images
+root@local$java Main localhost 9190 /opt/images
 
 Now the send request by using the below url 
 http://localhost:9190/image?imageUrl=<image_url>
