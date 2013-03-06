@@ -11,3 +11,21 @@ Finally we came with an work around to get rid of this problem, i.e to store the
 
 You can use this code to download the images from image urls and put the image url which this code is returning as part 
 of stream api.
+
+In this code i have used grizzly light weight server with REST api.
+
+To work with this launch the Main.java and pass hostname/ip address,port and path where the downloaded images need to store as
+command line arguments.
+
+For example
+$java Main localhost 9190 /opt/images
+
+Now the send request by using the below url 
+http://localhost:9190/image?imageUrl=<image_url>
+
+<image_url> will be the link to the image.
+
+When the request has processed, you will able to see image under the path you have specified, and you will get 
+the image url back from the server.Like http://localhost:9190/images/13131414.jpg
+
+You can use this url as part of your stream api.
