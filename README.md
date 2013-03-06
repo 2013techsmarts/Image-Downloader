@@ -33,9 +33,7 @@ jersey-server-1.17.jar,
 jsr311-api-1.1.1.jar
 
 Now the send request by using the below url 
-http://localhost:9190/image?imageUrl=<image_url>
-
-<image_url> will be the link to the image.
+http://localhost:9190/image?imageUrl= will be the link to the image.
 
 When the request has processed, you will able to see image under the path you have specified, and you will get 
 the image url back from the server.Like http://localhost:9190/images/13131414.jpg
