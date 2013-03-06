@@ -20,6 +20,18 @@ command line arguments.
 For example
 root@local$java Main localhost 9190 /opt/images
 
+Keep in mind the below mentioned jars should be in classpath.
+asm-3.3.1.jar
+grizzly-framework-2.2.16.jar
+grizzly-http-2.2.16.jar
+grizzly-http-server-2.2.16.jar
+jackson-core-asl-1.8.5.jar
+jackson-mapper-asl-1.8.5.jar
+jersey-core-1.17.jar
+jersey-grizzly2-1.17.jar
+jersey-server-1.17.jar
+jsr311-api-1.1.1.jar
+
 Now the send request by using the below url 
 http://localhost:9190/image?imageUrl=<image_url>
 
